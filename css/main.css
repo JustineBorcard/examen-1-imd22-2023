@@ -23,10 +23,43 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  margin: 0 auto;
+  width: 428px;
+}
+
+header {
+  text-align: center;
+  background: #d7a1fd;
+  font-family: Noto Serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.p-header {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+nav {
+  background: #000;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+h1 {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 20px 20px 0px 20px;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
