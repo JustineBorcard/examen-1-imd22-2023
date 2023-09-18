@@ -36,6 +36,14 @@ header {
   font-weight: 300;
 }
 
+h1 {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 20px 20px 0px 20px;
+}
+
 .p-header {
   font-size: 20px;
   padding-bottom: 20px;
@@ -49,12 +57,38 @@ nav {
   padding: 20px;
 }
 
-h1 {
-  color: #000;
-  font-family: Nunito Sans;
+.on {
+  padding: 20px;
+  font-family: Noto Serif;
+  text-align: center;
+}
+
+.h1-on {
   font-size: 50px;
-  font-weight: 800;
-  padding: 20px 20px 0px 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 30px 20px 20px 20px;
+}
+
+.square {
+  border: 1px solid #000;
+  margin: 0 20px 20px 20px;
+}
+
+.p-square {
+  font-family: Noto Serif;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.h3-square {
+  font-family: Nunito Sans;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.img-on {
+  border-bottom: 7px solid #d7a1fd;
 }
 
 a {
@@ -62,6 +96,32 @@ a {
   text-decoration: none;
 }
 
+.button {
+  background-color: #000;
+  color: #d7a1fd;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  margin: 30px 77px;
+}
+
+.green {
+  background: #98fb00;
+  padding: 20px;
+}
+
+.citation {
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  padding: 0 20px 20px 0px;
+}
 img,
 video {
   max-inline-size: 100%;
