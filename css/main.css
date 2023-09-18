@@ -25,6 +25,7 @@ body {
   text-rendering: optimizeLegibility;
   margin: 0 auto;
   width: 428px;
+  border: 1px solid black;
 }
 
 header {
@@ -58,7 +59,6 @@ nav {
 }
 
 .on {
-  padding: 20px;
   font-family: Noto Serif;
   text-align: center;
 }
@@ -104,12 +104,13 @@ a {
   font-style: italic;
   text-transform: uppercase;
   padding: 20px 30px;
-  margin: 30px 77px;
+  margin: 30px 77px 60px 77px;
 }
 
 .green {
   background: #98fb00;
   padding: 20px;
+  margin: 0px;
 }
 
 .citation {
@@ -122,6 +123,29 @@ a {
   text-transform: uppercase;
   padding: 0 20px 20px 0px;
 }
+
+.new {
+  background: #f4ede8;
+}
+
+.h2-new {
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px; /* 100% */
+  text-transform: uppercase;
+  padding: 40px 20px 20px 20px;
+}
+
+.round {
+  margin: 20px;
+  border-radius: 20px;
+  background: #fff;
+}
+
 img,
 video {
   max-inline-size: 100%;
