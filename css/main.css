@@ -44,6 +44,11 @@ h1 {
   font-weight: 800;
   padding: 20px 20px 0px 20px;
 }
+strong {
+  font-family: Noto Serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
 
 .p-header {
   font-size: 20px;
@@ -124,6 +129,14 @@ a {
   padding: 0 20px 20px 0px;
 }
 
+.p-citation {
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
 .new {
   background: #f4ede8;
 }
@@ -144,6 +157,10 @@ a {
   margin: 20px;
   border-radius: 20px;
   background: #fff;
+}
+
+.img-round {
+  border-radius: 20px 20px 0 0;
 }
 
 img,
