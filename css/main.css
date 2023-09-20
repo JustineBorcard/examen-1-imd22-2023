@@ -83,7 +83,7 @@ nav {
 .p-square {
   font-family: Noto Serif;
   font-size: 15px;
-  padding: 20px;
+  padding: 10px 20px 30px 20px;
 }
 
 .h3-square {
@@ -161,6 +161,32 @@ a {
 
 .img-round {
   border-radius: 20px 20px 0 0;
+}
+
+.p-round {
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 20px;
+}
+
+em {
+  font-family: Nunito Sans;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.opportunities {
+  background: #fff;
+  padding-top: 0;
+}
+
+.box {
+  padding: 15px;
+  font-family: "Playfair Display", serif;
 }
 
 img,
