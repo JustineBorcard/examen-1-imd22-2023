@@ -189,6 +189,36 @@ em {
   font-family: "Playfair Display", serif;
 }
 
+footer {
+  background: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  padding: 20px;
+}
+
+.h2-footer {
+  color: #313131;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.h3-footer {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 20px 0 0 0;
+}
+
+.p-footer a {
+  color: #fff;
+  font-family: Noto Serif;
+  font-weight: 300;
+}
+
 img,
 video {
   max-inline-size: 100%;
